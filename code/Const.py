@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # C
 COLOR_YELLOW = (255, 242, 0)
 COLOR_WHITE = (255, 255, 255)
@@ -23,7 +22,4 @@ MENU_OPTION = ('NEW GAME 1P',
 SCREEN_WIDTH = 600
 SCREEN_HEIGHT = 499
 
-=======
-SCREEN_WIDTH = 600
-SCREEN_HEIGHT = 499
->>>>>>> JogodeNave/AulaPrática02
+
