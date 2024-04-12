@@ -19,8 +19,8 @@ class Menu:
 
     def run(self):
         # Seleciona e Executa a Musica
-        # pygame.mixer_music.load('./assets/fase1.mp3')
-        # pygame.mixer_music.play(-1)
+        pygame.mixer_music.load('./assets/Menu.mp3')
+        pygame.mixer_music.play(-1)
 
         # Opção Default do Menu
         menu_option = 0
@@ -64,6 +64,7 @@ class Menu:
                     if event.key == pygame.K_RETURN:
                         return MENU_OPTION[menu_option]
 
+    # Configuração da Fonte usada no menu
     def menu_text(self, text_size: int, text: str, text_color: tuple, text_center_position: tuple):
         text_font: Font = pygame.font.Font("./assets/audiowire_font.ttf", size=text_size)
         text_surf: Surface = text_font.render(text, True, text_color)
